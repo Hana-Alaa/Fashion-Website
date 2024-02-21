@@ -1,0 +1,270 @@
+*
+{
+    font-family: 'El Messiri', sans-serif;
+}
+body
+{   
+    padding: 0%;
+    margin: 0%;
+    background-color:#e2e5e6 ;
+}
+header
+{
+    background-color:#c5cace ;
+    z-index: 999999;
+}
+.start   /* css header */
+{
+    display: flex;
+    flex-direction: row;
+}
+.anker    /* css header */
+{
+    display: inline-block;
+}
+.anker a    /* css header */
+{
+    padding: 0%;
+    text-decoration: none;
+    color: #a52a2a;
+}
+.cart 
+{
+    margin-left: 500px;
+}
+.anker ul    /* css header */
+{
+    width: 100%;
+    padding: 0;
+    margin: 0%;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.anker ul li    /* css header */
+{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-left: 15px; 
+}
+.logo    /* css header */
+{
+    width:20%;
+    float: left;
+    text-align: center;
+}
+.title h1
+{ 
+    margin-top: 18px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.title h1 span
+{
+    color: brown;
+}
+.title hr
+{
+    border: none;
+    opacity: 1;
+    margin: 0rem 0;
+    margin: auto;
+    width: 90px;
+    height: 3px;
+    background-color: brown;
+    margin-top: 0%;
+    margin-bottom: 50px;
+}
+.btn-primary
+{
+    text-align: center;
+    margin-left: 140px;
+    background-color: brown;
+    border: brown;
+}
+.btn-primary:hover
+{
+    background-color:rgb(212, 52, 52) ;
+}
+.card
+{
+    display: inline-block;
+    cursor: pointer;
+}
+#footer
+{
+    background-color: #c5cace;
+    display: flex;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col-3
+{
+    width: 22%;
+    display: inline-block;
+    height: 227px;
+    margin-top: 0px;
+}
+.col-3 #shop
+{
+    margin-left: 148px;
+}
+.col-3 #shop ul 
+{
+    list-style:circle;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.col-3 #contact 
+{
+    margin-left: 107px;
+}
+.col-3 #contact img
+{
+    height: 25px;
+    width: 25px;
+}
+.col-3 #contact ul 
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+}
+.col-3 #contact li
+{
+    padding-right: 20px;
+}
+.col-3 #sign
+{
+    margin-left: 70px;
+}
+.col-3 #logo
+{
+    float: left;
+}
+.col-3 #logo h3
+{
+    padding-left: 90px;
+    padding-top: 10px;
+    color: brown;
+    font-size: 20px;
+}
+.col-3 #logo img
+{
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+input
+{
+    margin-top: 10px;
+    border: none;
+    height: 35px;
+}
+button
+{
+    opacity: 1;
+    width: 37px ;
+    height:35px ;
+    color: #fff;
+    background-color: brown;
+    border: none;
+}
+.col-3 a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.col-3 h4
+{
+    font-size: 18px;
+    margin: 0%;
+    margin-bottom: 8px;
+}
+.col-3 h3
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.col-3 p
+{
+    margin: 0%;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.col
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin:0%;
+    padding-bottom: 1px;
+}
+.col h5
+{
+    display: inline-block;
+    margin: 0%;
+    font-size: 17px;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+#socialul
+{
+    margin-top: 10px;
+}
+.copyright p
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#BackToTop {
+    display: none;
+    background-color: brown;
+    color: #fff;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.fa-angle-double-up{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 30px;
+    font-weight: 300;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@media (max-width: 500px) {
+    .logo{margin-top: 10px; margin-left: 130px; margin-bottom: 10px; width: 150px; height: 40px;}
+    .anker ul{padding-left: 0; display: inline-block;}
+    .anker a{font-size: 15px;} 
+    .anker,.card-text,.card-title{font-size: 10px;}
+    .image{margin: auto; padding: 0%; width: 100%;}
+    .title h1 , .title span {font-size: 25px; margin-top: 10px;}
+    .btn-primary {margin-left: 0%;}
+    .card{width: 100%; margin-bottom: 10px;}
+    footer img {width: 150px; height: 40px;}
+    .row{display:flex; flex-wrap: wrap; justify-content: center;}
+    .col-3 h4{font-size: 10px;}
+    #BackToTop {right: 28%;}
+    /*{padding-top: 130px;}
+    {height: 271px;}*/
+}
